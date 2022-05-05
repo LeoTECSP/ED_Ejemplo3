@@ -22,8 +22,11 @@ namespace ED_Ejemplo3
         {
             InitializeComponent();
             BackgroundImageLayout = ImageLayout.Stretch;
+            //user control tenga un fondo transparente
+            this.BackColor = Color.Transparent;
+            //Aplicar un uso doble de recursos
+           
 
-       
 
             //if (esttus == 1)
             //{
